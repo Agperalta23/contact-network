@@ -1,0 +1,94 @@
+/* Variables de colores */
+:root {
+  --main-color: #222831;
+  --back-color: #393E46;
+  --back-light-color: #a3a4a5;
+  --light-color: #F7C873;
+  --light-hover-color: #dbaf5c;
+  --button-hover-color: #d8aa56;
+  --white-color: #EEEEEE;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  font-size: 16px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+/* Barra de busqueda para  */
+
+.input-search-bar {
+  width: 53.5rem;
+  outline: 0;
+  border: 0;
+  border-bottom: 2px solid var(--white-color);
+  background: transparent;
+  font-size: 1.5rem;
+  color: var(--white-color);
+  transition: 0.3s ease;
+  margin-top: 3rem;
+}
+
+.search-bar-t {
+  display: block;
+  position: absolute;
+  padding-right: 24rem;
+  color: white;
+}
+
+.input-search-bar:focus {
+  border-bottom: 2px solid var(--light-hover-color);
+}
+
+.input-barra::placeholder {
+  color: transparent;
+
+}
+
+.bee-tag {
+  color: white;
+}
+
+.bee-tag:hover {
+  color: var(--light-color);
+  transition: .3s all ease;
+}
+
+.bee-tag-2 {
+  color: var(--light-color);
+}
+
+.beebank-network-p {
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--main-color);
+  height: 77vh;
+  width: 77vw;
+}
+
+.li-h {
+  margin-top: 2rem;
+  color:var(--white-color);
+  width: 90%;
+}
+
+.network-h {
+  margin-top: 5rem;
+}
+
+.main-hr {
+  border-bottom: 1px solid var(--light-color);
+}
+
+.light-hr {
+  border-bottom: 1px solid var(--white-color);
+}
